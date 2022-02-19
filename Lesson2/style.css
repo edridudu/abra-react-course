@@ -42,13 +42,13 @@ header {
 .button {
   width: 205px;
   height: 55px;
-  display: inline-block;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-right: 16px;
   padding: 16px 10px;
   margin-bottom: 72px;
+  background-color: #fcfaf7;
 }
 .button-default {
   border-radius: 12px;
@@ -66,6 +66,51 @@ header {
   color: #ff9f00;
   text-transform: uppercase;
 }
+
+.button-default:hover span {
+  color: #f08e0e;
+}
+.button-default:focus {
+  background-color: #faefdd;
+  border: solid 2px #d87a00;
+}
+.button-default:focus span {
+  color: #d87a00;
+}
+.button-default:click{
+  color: #fb3;
+  border: solid 2px #fb3;
+}
+.button-reverse {
+  border-radius: 12px;
+  background-color: #ff9f00;
+  border: solid 2px #ff9f00;
+}
+.button-reverse span {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.button-reverse:hover {
+  background-color: #f08e0e;
+  border: solid 2px #f08e0e;
+}
+
+.button-reverse:focus {
+  background-color: #f08e0e;
+  border: solid 2px #d87a00;
+}
+.button-reverse:click {
+  background-color: #fb3;
+}
+
 #website-article h2 {
   font-family: Arial;
   font-size: 24px;
