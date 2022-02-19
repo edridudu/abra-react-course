@@ -1,0 +1,137 @@
+#main-container {
+  background-color: #fcfaf7;
+}
+header {
+  background-color: #0e1649;
+  height: 100px;
+}
+.logo {
+  padding-top: 20px;
+  padding-left: 64px;
+}
+
+#website-article {
+  margin-top: 32px;
+  padding-left: 64px;
+}
+#website-article h1 {
+  font-family: Times New Roman;
+  font-size: 72px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #0e1649;
+}
+#website-article .sub-text {
+  font-family: Courier New;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.56px;
+  text-align: left;
+  color: #1c1c1c;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.button {
+  width: 205px;
+  height: 55px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 16px;
+  padding: 16px 10px;
+  margin-bottom: 72px;
+}
+.button-default {
+  border-radius: 12px;
+  border: solid 2px #ff9f00;
+}
+.button-default span {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff9f00;
+  text-transform: uppercase;
+}
+#website-article h2 {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1c1c1c;
+  margin-bottom: 16px;
+}
+
+#website-article h2.special {
+  font-family: Courier New;
+  letter-spacing: -0.48px;
+  color: rgba(14, 22, 73, 0.8);
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  width: 648px;
+  margin-bottom: 40px;
+}
+a {
+  color: #1c1c1c;
+}
+a.special {
+  background-color: #cfd0d6;
+}
+hr {
+  background-color: #e1e1e1;
+  width: 648px;
+  margin-bottom: 40px;
+  height: 1px;
+  border: none;
+}
+a.orange {
+  color: #ff7748;
+}
+img {
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+p.indent {
+  padding-left: 16px;
+}
+p.no-bottom-margin {
+  margin-bottom: 0px;
+}
+.special-link {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff7748;
+}
