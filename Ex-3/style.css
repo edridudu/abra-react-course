@@ -1,0 +1,22 @@
+#main-container {
+  width: 1440px;
+  height: 1024px;
+  background-image: url('assets/bg.svg');
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  width: 242px;
+  height: 60px;
+  position: absolute;
+}
+.login {
+  font-family: Assistant;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+}
