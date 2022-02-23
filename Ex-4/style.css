@@ -1,0 +1,79 @@
+#main-container {
+  width: 1920px;
+  height: 1080px;
+  background-color: #fcfaf7;
+  position: relative;
+}
+
+.main-rectangle {
+  width: 1186px;
+  height: 720px;
+  background-color: #0e1649;
+  margin: 0 auto;
+  position: absolute;
+  left: 367px;
+  top: 180px;
+}
+.main-rectangle h1 {
+  font-family: Assistant;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  color: #fcfaf7;
+  margin-top: 238px;
+}
+.logo {
+  width: 232px;
+  height: 73px;
+  border: solid 10px #ff7748;
+  background-color: #0e1649;
+  left: -116px;
+  position: absolute;
+  top: 78px;
+}
+.big-poligon {
+  width: 163px;
+  height: 163px;
+  right: 188px;
+  top: -81.5px;
+  position: absolute;
+}
+.big-circle {
+  width: 284px;
+  height: 284px;
+  background-color: #ff9f00;
+  border-radius: 200px;
+  position: absolute;
+  right: -142px;
+  top: -142px;
+}
+.rectangle {
+  width: 176px;
+  height: 176px;
+  background-color: #ff7748;
+  position: absolute;
+}
+.rectangle.right {
+  right: -88px;
+  top: 199px;
+}
+.rectangle.left {
+  left: -88px;
+  bottom: -88px;
+}
+.small-poligon {
+  width: 131px;
+  height: 132px;
+  position: absolute;
+  bottom: 155px;
+  left: -66px;
+}
+.small-circle {
+  width: 104px;
+  height: 104px;
+  background-color: #ff9f00;
+  position: absolute;
+  bottom: -52px;
+  left: 151px;
+  border-radius: 150px;
+}
