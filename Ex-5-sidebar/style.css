@@ -1,0 +1,108 @@
+.main-container {
+  background-color: #fcfaf7;
+  position: relative;
+}
+
+.logo {
+  width: 258px;
+  height: 64px;
+  margin-left: 64px;
+}
+.left-menu {
+  width: 343px;
+  height: 1080px;
+  /* padding: 32px 21px 638px 64px; */
+  background-color: #0e1649;
+  position: absolute;
+}
+
+ul {
+  margin-top: 64px;
+}
+li {
+  list-style-type: none;
+  margin-top: 24px;
+  margin-left: 24px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+#right-container {
+  position: absolute;
+  left: 343px;
+  top: 0px;
+}
+
+.main-right-area {
+  background-image: url(assets/woman-img.png);
+  width: 1578px;
+  height: 821px;
+}
+.main-right-area h1 {
+  font-family: Times New Roman;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #0e1649;
+}
+.right-text-group {
+  padding-top: 238px;
+  padding-left: 175px;
+}
+.right-text-group p {
+  width: 581px;
+}
+.add-box {
+  width: 526px;
+  height: 259px;
+  /* position: relative; */
+  margin-left: inherit;
+  display: inline-block;
+  padding-top: 16px;
+  padding-left: 32px;
+}
+p {
+  padding-top: 16px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1c1c1c;
+  padding-right: 64px;
+}
+.add-box h2 {
+  font-size: 24px;
+}
+.yellow {
+  background-color: #ff9f00;
+}
+.orange {
+  background-color: #ff7748;
+}
+.pink {
+  background-color: #ff5288;
+}
+.button-primary  {
+    margin-top: 16px;
+  width: 157px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 12px;
+  background-color: #ff9f00;
+  border: none;
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
