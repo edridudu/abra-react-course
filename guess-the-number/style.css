@@ -1,0 +1,14 @@
+header{
+    background-color: blue;
+    color: white;
+
+}
+
+section{
+
+}
+
+#guessed-number{
+    width: 100px;
+    height: 100px;
+}

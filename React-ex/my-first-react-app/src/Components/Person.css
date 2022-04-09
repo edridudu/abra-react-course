@@ -1,0 +1,7 @@
+.person-card {
+    background: blue;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    color: white;
+}
